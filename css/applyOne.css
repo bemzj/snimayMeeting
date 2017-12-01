@@ -1,0 +1,185 @@
+@charset "UTF-8";
+#message {
+  width: 100%;
+  height: 100%;
+  background: url(../img/show.jpg) no-repeat;
+  background-size: cover;
+  position: relative; }
+  #message .title {
+    width: 100%;
+    z-index: 10; }
+    #message .title img {
+      width: 90.67%;
+      margin: 0 auto; }
+  #message .code {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
+    margin-top: -0.1rem; }
+    #message .code .codeBox {
+      width: 90.67%;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 1px 1px silver;
+      padding-bottom: 0.4rem; }
+      #message .code .codeBox ul {
+        width: 100%; }
+        #message .code .codeBox ul li {
+          width: 94%;
+          margin: 0 auto;
+          height: 0.8rem; }
+          #message .code .codeBox ul li input {
+            display: block;
+            width: 100%;
+            height: 0;
+            outline: 0;
+            height: 100%;
+            border: 1px solid #a0a0a0;
+            border-radius: 2px;
+            font-size: 0.28rem;
+            text-indent: 0.8rem; }
+          #message .code .codeBox ul li input::-ms-input-placeholder {
+            color: #999999; }
+          #message .code .codeBox ul li input::-moz-placeholder {
+            color: #999999; }
+          #message .code .codeBox ul li input::-webkit-input-placeholder {
+            color: #999999; }
+      #message .code .codeBox ul li:nth-child(1) {
+        font-size: 0.32rem;
+        text-indent: 0.1rem;
+        font-weight: bold;
+        height: 1.0rem;
+        line-height: 1.0rem;
+        background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ab012e), to(#e83640));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      #message .code .codeBox ul li:nth-child(2) {
+        margin-bottom: 0.2rem; }
+        #message .code .codeBox ul li:nth-child(2) input {
+          background: url(../img/phone.png) no-repeat 0.2rem center;
+          background-size: auto 0.4rem; }
+      #message .code .codeBox ul li:nth-child(3) {
+        position: relative; }
+        #message .code .codeBox ul li:nth-child(3) input {
+          width: 60%;
+          background: url(../img/code.png) no-repeat 0.2rem center;
+          background-size: auto 0.38rem; }
+        #message .code .codeBox ul li:nth-child(3) .btn {
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 38%;
+          margin: 0;
+          margin-left: 2%; }
+          #message .code .codeBox ul li:nth-child(3) .btn button {
+            width: 100%; }
+      #message .code .codeBox ul li:nth-child(4) .btn button {
+        width: 100%; }
+
+.btn {
+  margin: 0.4rem 0; }
+  .btn button {
+    display: block;
+    width: 90.67%;
+    margin: 0 auto;
+    line-height: 0.8rem;
+    height: 0.8rem;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top, #ab1137, #d73843);
+    /* Safari 5.1 - 6.0 */
+    background: -ms-linear-gradient(top, #ab1137, #d73843);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(top, #ab1137, #d73843);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to top, #ab1137, #d73843);
+    /* 标准的语法 */
+    color: white;
+    font-size: 0.28rem; }
+
+#know {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column; }
+  #know .know {
+    width: 81.47%;
+    position: relative; }
+    #know .know > img {
+      width: 100%; }
+    #know .know .knowBox {
+      width: 100%;
+      height: 84%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      display: -webkit-flex;
+      -webkit-align-items: center;
+      -webkit-justify-content: center;
+      -webkit-flex-direction: column; }
+      #know .know .knowBox ul li:nth-child(1) img {
+        width: 52.86%;
+        margin: 0 auto; }
+      #know .know .knowBox ul li:nth-child(2) p {
+        font-size: 0.28rem;
+        color: white;
+        line-height: 0.4rem;
+        padding-top: 0.2rem;
+        text-align: center; }
+      #know .know .knowBox ul li:nth-child(3) {
+        padding: 0.5rem 0; }
+        #know .know .knowBox ul li:nth-child(3) p {
+          font-size: 0.28rem;
+          color: white;
+          width: 76%;
+          margin: 0 auto; }
+      #know .know .knowBox ul li:nth-child(4) button {
+        display: block;
+        width: 42.23%;
+        margin: 0 auto;
+        height: 0.6rem;
+        line-height: 0.6rem;
+        background-color: white;
+        border-radius: 5px;
+        color: #ae0630;
+        font-weight: bold;
+        font-size: 0.28rem; }
+      #know .know .knowBox ul li:nth-child(5) {
+        margin-top: 0.3rem; }
+        #know .know .knowBox ul li:nth-child(5) img {
+          width: 7.7%;
+          margin: 0 auto; }
+    #know .know .closeBox {
+      margin-top: 0.2rem;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%; }
+      #know .know .closeBox .close {
+        display: block;
+        width: 10.14%;
+        margin: 0 auto; }
+        #know .know .closeBox .close img {
+          width: 100%; }
+
+/*# sourceMappingURL=applyOne.css.map */

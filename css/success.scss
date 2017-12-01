@@ -1,0 +1,97 @@
+#message{
+    width: 100%;
+    height: 100%;
+    background: url(../img/show.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
+    position: relative;
+    .title{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+        img{
+            width: 90.67%;
+            margin: 0 auto;
+        }
+    }
+    .attention{
+        width: 100%;
+        left: 0;
+        bottom: 0.2rem;
+        position: absolute;
+        font-size: 0.2rem;
+        color: white;
+        text-align: center;
+        opacity: 0.75;
+    }
+    .successBox{
+        width: 80.53%;
+        position: relative;
+        .time{
+            margin-top: 1.0rem;
+            width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            font-size: 0.26rem;
+            color: white;
+            text-align: center;
+            line-height: 0.4rem;
+            p:nth-child(1){
+                opacity: 0.75;
+            }
+            p:nth-child(2){
+                font-weight: bold;
+            }
+        }
+        >img{
+            width: 100%;
+        }
+        .tBox{
+            width: 3.64rem;
+            margin: 0 auto;
+            margin-right: 0.36rem;
+            position: relative;
+            p{
+                font-size: 0.28rem;
+                text-align: center;
+                color: white;
+            }
+            .room{
+                position: absolute;
+                left: -0.65rem;
+                top: 0.055rem;
+                width: 0.72rem;
+                height: 0.72rem;
+                background: url(../img/room.png) no-repeat center center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                display: -webkit-flex;
+                -webkit-align-items: center;
+                -webkit-justify-content: center;
+                -webkit-flex-direction: column;
+                img{
+                    width: 100%;
+                }
+       
+                p{
+                    font-size: 0.24rem;
+                    line-height: 0.32rem;
+                }
+            }
+        }
+    }
+}
