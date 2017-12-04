@@ -95,11 +95,22 @@ body {
         -webkit-text-fill-color: transparent; }
     #message .message ul li:nth-child(6) {
       background: white;
-      border: 0; }
+      border: 0;
+      margin-bottom: 0; }
       #message .message ul li:nth-child(6) .choice {
         width: 25%;
         color: #2a2a2a; }
         #message .message ul li:nth-child(6) .choice p {
+          line-height: 0.7rem;
+          text-indent: 0.2rem;
+          color: #666666; }
+    #message .message ul li:nth-child(7) {
+      background: white;
+      border: 0; }
+      #message .message ul li:nth-child(7) .choice {
+        width: 25%;
+        color: #2a2a2a; }
+        #message .message ul li:nth-child(7) .choice p {
           line-height: 0.7rem;
           text-indent: 0.2rem;
           color: #666666; }

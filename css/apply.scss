@@ -111,6 +111,20 @@ body{
             li:nth-child(6){
                 background: white;
                 border: 0;
+                margin-bottom: 0;
+                .choice{
+                    width: 25%;
+                    color: #2a2a2a;
+                    p{
+                        line-height: 0.7rem;
+                        text-indent: 0.2rem;
+                        color: #666666;
+                    }
+                }
+            }
+            li:nth-child(7){
+                background: white;
+                border: 0;
                 .choice{
                     width: 25%;
                     color: #2a2a2a;
