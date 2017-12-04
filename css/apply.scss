@@ -72,11 +72,24 @@ body{
                 border: 0;
                 height: auto;
                 margin-bottom: 0rem;
-                img{
+                div{
                     position: relative;
-                    top: 0;
-                    left: 0;
-                    width: 56.76%;
+                    span{
+                        position: absolute;
+                        left: 0.6rem;
+                        bottom: 0rem;
+                        color: #c1c1c1;
+                        font-size: 0.2rem;
+                        transform: scale(0.75,0.75);
+                        margin-left: -5%;
+                        line-height: 0.2rem;
+                    }
+                }
+                img{
+                    position:relative;
+                    top:0;
+                    left: 0.1rem;
+                    width: 0.5rem;
                     height: auto;
                 }
             }
@@ -89,7 +102,7 @@ body{
                 color: #999999;
                 span{
                     font-weight: bold;
-                    background-image: -webkit-gradient(linear, 0 0, right 0, from(#5989e2), to(#6daee1));
+                    background-image: -webkit-gradient(linear, 0 0, right 0, from(#5d92f5), to(#73bbf4));
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
@@ -136,11 +149,11 @@ body{
         }
             
     }
-//  .traffic ul li:nth-child(6) .choice{
-//      width: 33.333%;
-//  }
 }
-
+#message .traffic ul li:nth-child(2) span{
+    background-image: -webkit-gradient(linear, 0 0, right 0, from(#6960f6), to(#6536f3));
+    
+}
 .choice .radio {
     position: relative;
     display: inline-block;

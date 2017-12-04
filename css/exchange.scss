@@ -19,16 +19,60 @@ body{
     }
     .message:nth-child(3){
         margin-top: 0.2rem;
+        padding-bottom: 0.3rem;
         ul li:nth-child(3){
             >.napBox{
                 .floatl{
+                    height: 0.6rem;
                     width: 50%;
+                    line-height: 0.6rem;
+                    font-size: 0.28rem;
+                    color: #333333;
                     p{
-                        text-align: center;
+                        text-align: center;    
                     }
                 }
+                .floatl:nth-child(1){
+                    position: relative;
+                    >span:nth-child(1){
+                        position: absolute;
+                        top: 0.1rem;
+                        border-right: 1px solid #7ed192;
+                        right: -1px;
+                        height: 0.2rem;
+                    }
+                    >span:nth-child(2){
+                        position: absolute;
+                        height: 0.2rem;
+                        border-right: 1px solid #6ab5a5;
+                        top: 0.3rem;
+                        right: -1px;
+                    }
+                    border-bottom: 1px solid #6ab5a5;
+                    border-left: 1px solid #6ab5a5;
+                }
+                .floatl:nth-child(2){
+                    margin-left: -2px;
+                    border-bottom: 1px solid #7ed192;
+                    border-right: 1px solid #7ed192;
+                }
+                
             }
-            
+            >.napBox:nth-child(1){
+                background: url(../img/green.png) no-repeat center center;
+                background-size: 100% 100%;
+                .floatl{
+                   color: white; 
+                }
+                .floatl:nth-child(1){
+                    border-bottom: 1px solid transparent;
+                    border-left: 1px solid transparent;
+                }
+                .floatl:nth-child(2){
+                    border-bottom: 1px solid transparent;
+                    border-right: 1px solid transparent;
+                }
+            }
         }
     }
     .message{
@@ -50,12 +94,23 @@ body{
                 border: 0;
                 height: auto;
                 margin-bottom: 0rem;
-                img{
+                div{
                     position: relative;
-                    top: 0;
-                    left: 0;
-                    width: 56.76%;
+                    span{
+                        position: absolute;
+                        left: 0.6rem;
+                        bottom: 0rem;
+                        color: #c1c1c1;
+                        font-size: 0.2rem;
+                        transform: scale(0.75,0.75);
+                        margin-left: -6.5%;
+                        line-height: 0.2rem;
+                    }
+                }
+                img{
+                    width: 0.5rem;
                     height: auto;
+                    margin-left: 0.1rem;
                 }
             }
             li:nth-child(2){
@@ -68,7 +123,7 @@ body{
                 span{
                     font-weight: bold;
                     font-size: 0.28rem;
-                    background-image: -webkit-gradient(linear, 0 0, right 0, from(#5989e2), to(#6daee1));
+                    background-image: -webkit-gradient(linear, 0 0, right 0, from(#5d92f5), to(#73bbf4));
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
@@ -88,8 +143,29 @@ body{
             }
         }
     }
+    .advice{
+        margin-top: 0.12rem;
+        p{
+            text-align: center;
+            font-size: 0.24rem;
+            color: #666666;
+        }
+    }
 }
-
+#message .message:nth-child(2) ul li:nth-child(2) span{
+    background-image: -webkit-gradient(linear, 0 0, right 0, from(#6960f6), to(#6536f3));
+}
+#message .message:nth-child(3) ul li:nth-child(2) span{
+    background-image: -webkit-gradient(linear, 0 0, right 0, from(#5bbab7), to(#78e39b));
+}
+#message .message:nth-child(1) ul li:nth-child(1) img{
+    width: 0.49rem;
+}
+#message .message:nth-child(3) ul li:nth-child(1){
+    img{
+        width: 0.55rem;
+    }
+} 
 .choice .radio {
     position: relative;
     display: inline-block;
