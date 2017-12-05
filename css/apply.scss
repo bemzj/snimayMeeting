@@ -108,21 +108,8 @@ body{
                 }
             }
             
-            li:nth-child(6){
-                background: white;
-                border: 0;
-                margin-bottom: 0;
-                .choice{
-                    width: 25%;
-                    color: #2a2a2a;
-                    p{
-                        line-height: 0.7rem;
-                        text-indent: 0.2rem;
-                        color: #666666;
-                    }
-                }
-            }
-            li:nth-child(7){
+            
+            li:nth-child(8){
                 background: white;
                 border: 0;
                 .choice{
@@ -146,6 +133,20 @@ body{
                 top: 0.21rem;
                 height: 0.28rem;
             }
+            li:nth-child(6){
+                background: white;
+                border: 0;
+                margin-bottom: 0;
+                .choice{
+                    width: 25%;
+                    color: #2a2a2a;
+                    p{
+                        line-height: 0.7rem;
+                        text-indent: 0.2rem;
+                        color: #666666;
+                    }
+                }
+            }
         }
             
     }
@@ -157,8 +158,25 @@ body{
                 height: 0.3rem;
                 left: 0.15rem;
             }
+            li:nth-child(4){
+                background: white;            
+                }
             li:nth-child(5) img{
                 left: 0.15rem;
+            }
+            li:nth-child(7){
+                background: white;
+                border: 0;
+                margin-bottom: 0;
+                .choice{
+                    width: 25%;
+                    color: #2a2a2a;
+                    p{
+                        line-height: 0.7rem;
+                        text-indent: 0.2rem;
+                        color: #666666;
+                    }
+                }
             }
         }
             

@@ -93,24 +93,13 @@ body {
         background-image: -webkit-gradient(linear, 0 0, right 0, from(#5d92f5), to(#73bbf4));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
-    #message .message ul li:nth-child(6) {
-      background: white;
-      border: 0;
-      margin-bottom: 0; }
-      #message .message ul li:nth-child(6) .choice {
-        width: 25%;
-        color: #2a2a2a; }
-        #message .message ul li:nth-child(6) .choice p {
-          line-height: 0.7rem;
-          text-indent: 0.2rem;
-          color: #666666; }
-    #message .message ul li:nth-child(7) {
+    #message .message ul li:nth-child(8) {
       background: white;
       border: 0; }
-      #message .message ul li:nth-child(7) .choice {
+      #message .message ul li:nth-child(8) .choice {
         width: 25%;
         color: #2a2a2a; }
-        #message .message ul li:nth-child(7) .choice p {
+        #message .message ul li:nth-child(8) .choice p {
           line-height: 0.7rem;
           text-indent: 0.2rem;
           color: #666666; }
@@ -119,14 +108,38 @@ body {
   #message .person ul li:nth-child(4) img {
     top: 0.21rem;
     height: 0.28rem; }
+  #message .person ul li:nth-child(6) {
+    background: white;
+    border: 0;
+    margin-bottom: 0; }
+    #message .person ul li:nth-child(6) .choice {
+      width: 25%;
+      color: #2a2a2a; }
+      #message .person ul li:nth-child(6) .choice p {
+        line-height: 0.7rem;
+        text-indent: 0.2rem;
+        color: #666666; }
   #message .traffic {
     margin-top: 0.2rem; }
     #message .traffic ul li:nth-child(3) img {
       top: 0.2rem;
       height: 0.3rem;
       left: 0.15rem; }
+    #message .traffic ul li:nth-child(4) {
+      background: white; }
     #message .traffic ul li:nth-child(5) img {
       left: 0.15rem; }
+    #message .traffic ul li:nth-child(7) {
+      background: white;
+      border: 0;
+      margin-bottom: 0; }
+      #message .traffic ul li:nth-child(7) .choice {
+        width: 25%;
+        color: #2a2a2a; }
+        #message .traffic ul li:nth-child(7) .choice p {
+          line-height: 0.7rem;
+          text-indent: 0.2rem;
+          color: #666666; }
 
 #message .traffic ul li:nth-child(2) span {
   background-image: -webkit-gradient(linear, 0 0, right 0, from(#6960f6), to(#6536f3)); }
